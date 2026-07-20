@@ -1,0 +1,69 @@
+[
+  {
+    "title": "Amplitude Modulation and Demodulation",
+    "repo": "Engr-Umer/Amplitude-Modulation-and-Demodulation",
+    "url": "https://github.com/Engr-Umer/Amplitude-Modulation-and-Demodulation",
+    "category": "Communication Systems / Analog Electronics",
+    "short_description": "Transistor-based low-level AM modulator and diode envelope detector, designed, simulated in Proteus, and built on Veroboard.",
+    "long_description": "Communication Systems lab project (UET Taxila) implementing amplitude modulation and demodulation. A message signal (audio-frequency, ~500 Hz-1 kHz) modulates a carrier (~10-15 kHz) using a BC107BP transistor modulator with an LC tank circuit, then recovers the message using a diode (1N4007) envelope detector. Verified in Proteus with both function-generator and live audio-file sources, and physically implemented on a Veroboard using discrete components and a microphone input.",
+    "tech_stack": ["Proteus", "Analog Circuit Design", "AM Modulation/Demodulation", "Veroboard Hardware Build"],
+    "role": "Team project (5 members)",
+    "date": "January 2023"
+  },
+  {
+    "title": "Android Controlled RC Car with Obstacle Distance Measurement",
+    "repo": "Engr-Umer/RC-Car",
+    "url": null,
+    "url_status": "PENDING - need the exact GitHub repo link to confirm",
+    "category": "Embedded Systems / Microcontrollers",
+    "short_description": "Bluetooth-controlled RC car on a PIC16F877A, steered from an Android phone, with real-time ultrasonic obstacle-distance readout on an LCD.",
+    "long_description": "Microprocessors and Microcontrollers lab project (UET Taxila) built around a PIC16F877A. An HC-06 Bluetooth module receives single-character drive commands over UART from an Android app and maps them to an L298N dual H-bridge motor driver for 8-direction movement. An HC-SR04 ultrasonic sensor continuously measures obstacle distance via Timer1 pulse-width timing, displayed live on a 16x2 LCD. Designed and simulated in Proteus; firmware written in MikroC for PIC.",
+    "tech_stack": ["PIC16F877A", "MikroC for PIC", "Proteus", "Bluetooth/UART", "Ultrasonic Sensing"],
+    "role": "Team project (4 members)",
+    "date": "2020 session"
+  },
+  {
+    "title": "Pulse Sensor using Arduino UNO",
+    "repo": "Engr-Umer/Pulse-Sensor-using-Arduino",
+    "url": "https://github.com/Engr-Umer/Pulse-Sensor-using-Arduino",
+    "category": "Instrumentation & Measurement / Embedded Systems",
+    "short_description": "Photoplethysmogram (PPG) heart-rate monitor using a Pulse Sensor Amped and Arduino Uno, with live BPM on an I2C LCD and serial monitor.",
+    "long_description": "Instrumentation and Measurement Complex Engineering Problem (CEP) at UET Taxila. An interrupt-driven Arduino sketch samples the Pulse Sensor Amped's PPG signal at 500 Hz, detects heartbeats via an adaptive threshold, and computes BPM from a rolling average of inter-beat intervals, displaying results on a 16x2 I2C LCD and the serial monitor. Verified in Proteus and built on a breadboard; validated against a commercial pulse oximeter across 4 volunteers with 3.2% average error.",
+    "tech_stack": ["Arduino Uno", "C/C++", "Proteus", "I2C (LiquidCrystal_I2C)", "PPG Sensing"],
+    "role": "Team project (5 members)",
+    "date": "December 2023"
+  },
+  {
+    "title": "Boiler Automation System (Steam Flow, Water Flow & Drum Level Control)",
+    "repo": "Engr-Umer/Boiler-Automation-using-PLC",
+    "url": "https://github.com/Engr-Umer/Boiler-Automation-using-PLC",
+    "category": "Industrial Automation / PLC & HMI",
+    "short_description": "Three-element drum level control for an industrial boiler, implemented as PLC ladder logic with a CX-Designer HMI mimic panel.",
+    "long_description": "Industrial Automation Complex Engineering Problem (CEP) at UET Taxila. Designs a three-element control scheme (drum level + steam flow + feedwater flow, cascaded) to keep a boiler's water level, steam flow, and feedwater flow within safe limits. Includes sensor selection/comparison (pressure, level, temperature), a P&ID, a process flow chart, Omron CX-Programmer ladder logic for the control sequence, and a CX-Designer HMI operator panel mirroring the same PLC bits.",
+    "tech_stack": ["Omron CX-Programmer (PLC/Ladder Logic)", "Omron CX-Designer (HMI)", "P&ID Design", "Process Control"],
+    "role": "Team project (6 members)",
+    "date": "May 2024"
+  },
+  {
+    "title": "Design and Implementation of a Cockcroft-Walton Multiplier",
+    "repo": "Engr-Umer/Design-And-Implementation-of-Cockcroft-Walton-Multiplier",
+    "url": "https://github.com/Engr-Umer/Design-And-Implementation-of-Cockcroft-Walton-Multiplier",
+    "category": "High Voltage Engineering / Power Electronics",
+    "short_description": "Cascaded diode-capacitor voltage multiplier built on PCB to step a low-voltage input up to high DC output.",
+    "long_description": "High Voltage Engineering Lab Complex Engineering Problem (CEP) at UET Taxila. Designs and builds a Cockcroft-Walton multiplier using 2kV SHC ceramic capacitors, high-voltage rectifier diodes, and a step-up transformer, assembled on a compact PCB. Covers component selection/justification, circuit operation (cascaded charge/discharge stages accumulating voltage), and an evaluation of the topology's advantages (simplicity, high voltage gain, cost-effectiveness) and drawbacks (limited load capacity, frequency/load sensitivity, component stress).",
+    "tech_stack": ["High Voltage Circuit Design", "PCB Assembly", "Power Electronics", "Voltage Multiplication"],
+    "role": "Team project (4 members)",
+    "date": "May 2024"
+  },
+  {
+    "title": "Optimizing Solar Farm Placement and Energy Storage — Solar System Design for a Selected Load Center",
+    "repo": "Engr-Umer/Solar-System-Design",
+    "url": "https://github.com/Engr-Umer/Solar-System-Design",
+    "category": "Power Generation / Renewable Energy",
+    "short_description": "Rooftop solar PV design for the Mall of Sargodha (811.2 kWp, 1,352 panels) modeled end-to-end in Helioscope.",
+    "long_description": "Power Generation Lab Complex Engineering Problem (CEP) at UET Taxila. Designs a full rooftop solar PV system for the Mall of Sargodha using Helioscope: panel layout and stringing (1,352x Longi 600W modules, 811.2 kWp DC), inverter sizing (6x Huawei 125kW inverters, 750kW AC), per-module shading analysis (4.5% shading loss), a full system loss breakdown, monthly/annual energy production modeling (~1.16 GWh/year to grid), and an electrical single line diagram.",
+    "tech_stack": ["Helioscope (Folsom Labs)", "Solar PV Design", "Shading/Yield Analysis", "Electrical Single Line Design"],
+    "role": "Team project (5 members)",
+    "date": "December 2023"
+  }
+]
